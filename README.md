@@ -11,6 +11,6 @@ Wynikiem programu jest ciąg wierszy reprezentujących rozwiązania instancji W1
 
 Rozwiązaniem instancji W1,…Wn jest zbiór Q⊆{1,…n}, reprezentowany przez tekst R długości d. Tekst ten nie zawiera znaku podkreślenia _ i spełnia warunek
 
-∀1≤i≤d ∃j∈Q ((Wj)i=Ri∧∀k∈Q∖{j}(Wk)i=_)
+∀1≤i≤d ∃j∈Q ((Wj)i = Ri ∧ ∀k∈Q∖{j} (Wk)i = _)
 
 Rozwiązania są budowane ze znaków wierszy W1,…Wn, zgodnie z ich kolejnością. W danym rozwiązaniu, w kolejności od początku, wybieramy metodą prób i błędów znaki nie kolidujące z wyborami dokonanymi wcześniej.
